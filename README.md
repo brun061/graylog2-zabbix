@@ -14,7 +14,7 @@ For specific Elasticsearch monitoring, please head over to Elastizabbix (https:/
 This doesn't require anything on the agent. It is an external script curl'ing to the Graylog2 API.
 
 ## How to install
-  * Create a Graylog2 user with the "reader" role
+  * Create a Graylog2 user with the "reader" role on Graylog server.
   * Enter the credentials in the check_graylog_node_creds.txt file.
   * Copy the 2 files to your zabbix's externalscripts directory
   * Make sure your files permissions are adequate
